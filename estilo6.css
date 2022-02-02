@@ -1,0 +1,44 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(80, 78, 78)
+}
+#mainContainer{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+#imageContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+#infoContainer{
+    margin-left: 20px; 
+}
+
+.genericButton{
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.reservation{
+    background-color: white;
+    border: 2px solid grey;
+}
+
+.presupuesto{
+    background-color: grey;
+    border: none;
+    color:honeydew;
+    padding: 9px;
+}
+
+.noteButton{
+    background-color: rgb(172, 169, 169);
+    color: black;
+    font-weight: 1000;
+    border-radius: 10px;
+    padding: 9px;
+}
